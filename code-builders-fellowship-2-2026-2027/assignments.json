@@ -1,4 +1,27 @@
 {
   "schema": "classroom50/assignments/v1",
-  "assignments": []
+  "assignments": [
+    {
+      "slug": "testing",
+      "name": "Testing",
+      "template": {
+        "owner": "testing-classroom-50",
+        "repo": "testing-classroom-50/test-assignment",
+        "branch": "main"
+      },
+      "mode": "individual",
+      "autograder": "default",
+      "description": "Foobar",
+      "due": "2026-10-31T17:55",
+      "tests": [
+        {
+          "name": "Run tests",
+          "type": "python",
+          "run": "python3 -m pytest -q",
+          "points": 20,
+          "timeout": 5
+        }
+      ]
+    }
+  ]
 }
