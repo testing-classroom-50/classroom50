@@ -21,6 +21,27 @@
           "points": 10
         }
       ]
+    },
+    {
+      "slug": "other-test-assignment",
+      "name": "other-test-assignment",
+      "template": {
+        "owner": "testing-classroom-50",
+        "repo": "testing-classroom-50/test-assignment",
+        "branch": "main"
+      },
+      "mode": "individual",
+      "autograder": "default",
+      "description": "foobar",
+      "due": "2026-06-21T17:40",
+      "tests": [
+        {
+          "name": "Testing",
+          "type": "python",
+          "run": "python3 -m pytest dragon_slayer/game_test.py",
+          "points": 10
+        }
+      ]
     }
   ]
 }
