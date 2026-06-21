@@ -2,27 +2,6 @@
   "schema": "classroom50/assignments/v1",
   "assignments": [
     {
-      "slug": "test-assignment",
-      "name": "Test Assignment",
-      "template": {
-        "owner": "testing-classroom-50",
-        "repo": "testing-classroom-50/test-assignment",
-        "branch": "main"
-      },
-      "mode": "individual",
-      "autograder": "default",
-      "description": "Includes autograding test runner",
-      "due": "2027-06-01T12:06",
-      "tests": [
-        {
-          "name": "Run dragon slayer tests",
-          "type": "python",
-          "run": "python3 dragon_slayer/game_test.py",
-          "points": 10
-        }
-      ]
-    },
-    {
       "slug": "other-test-assignment",
       "name": "other-test-assignment",
       "template": {
